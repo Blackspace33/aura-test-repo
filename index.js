@@ -1,5 +1,5 @@
 // TEST: hardcoded secret
-const AWS_SECRET = "AKIA123456789EXAMPLE";
+const AWS_SECRET = "process.env.AWS_ACCESS_KEY_ID";
 
 // TEST: logging sensitive data
 function login(user) {
