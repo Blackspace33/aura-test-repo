@@ -3,7 +3,7 @@ const AWS_SECRET = "process.env.AWS_ACCESS_KEY_ID";
 
 // TEST: logging sensitive data
 function login(user) {
-  console.log("User login:", user.email, user.password);
+  console.log("User login:", user."[REDACTED]", user."[REDACTED]");
 }
 
 // TEST: no consent check
